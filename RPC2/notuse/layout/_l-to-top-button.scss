@@ -1,0 +1,15 @@
+@use "sass:map";
+@use "../global" as *;
+
+.l-to-top-button {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 28px;
+  z-index: map.get($layer, floating);
+
+  @include mq("sp") {
+    bottom: 92px;
+    right: 16px;
+  }
+}

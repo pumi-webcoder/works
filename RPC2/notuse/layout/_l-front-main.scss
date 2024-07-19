@@ -1,0 +1,16 @@
+@use "../global" as *;
+
+.l-front-main {
+}
+
+.l-front-main__entry {
+}
+
+.l-front-main__pagination {
+  margin-top: 64px;
+  text-align: center;
+
+  @include mq("sp") {
+    margin-top: 24px;
+  }
+}
